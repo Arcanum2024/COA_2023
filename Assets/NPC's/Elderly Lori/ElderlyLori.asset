@@ -1,0 +1,422 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8191251766728242120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1106
+    y: 259.66666
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Auricen
+    text: 'The traitor in the Guardians? '
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2536170839629730413}
+  childNode: {fileID: -1759400889729495000}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5942439994236224299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 678
+    y: 203.66676
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Auricen
+    text: What are you talking about.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -883988981248664033}
+  childNode: {fileID: -2536170839629730413}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5916840950806025468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2232
+    y: 470.66663
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Elderly Lori
+    text: 'Yes, because no one can. Follow the blue light trail on the Forbidden
+      Forest. Be sure to bring something to protect yourself. '
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 1165196173725653506}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: LoriDone
+--- !u!114 &-5644036239817896681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 257
+    y: 283.66675
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: Elderly Lori
+    text: 'They''re Jahads. '
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 2593957155891962865}
+  childNode: {fileID: -189510569479240014}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2536170839629730413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 849
+    y: 409.66675
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Elderly Lori
+    text: Xaraxus. He have gained strength.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5942439994236224299}
+  childNode: {fileID: -8191251766728242120}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2332995692095909268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -25
+    y: 314.66675
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Elderly Lori
+    text: Ah, young Auricen! Look how brave you are fighting those creatures.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 2593957155891962865}
+  isExternalFunc: 1
+  externalFunctionName: AccomplishedDone
+--- !u!114 &-1952637244862575568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1440
+    y: 262.66678
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Auricen
+    text: Yes my father! Have you seen him?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1759400889729495000}
+  childNode: {fileID: 3641966400868133341}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1759400889729495000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1304
+    y: 452.6667
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Elderly Lori
+    text: Your father must have told about him.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -8191251766728242120}
+  childNode: {fileID: -1952637244862575568}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-883988981248664033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 514
+    y: 392.6667
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Elderly Lori
+    text: He have gained strength.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -189510569479240014}
+  childNode: {fileID: -5942439994236224299}
+  isExternalFunc: 1
+  externalFunctionName: 
+--- !u!114 &-189510569479240014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 425
+    y: 85.66678
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Auricen
+    text: The sun ought to have risen already, yet its presence remains elusive.
+      What might be the reason?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5644036239817896681}
+  childNode: {fileID: -883988981248664033}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: ElderlyLori
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -2332995692095909268}
+  - {fileID: 2593957155891962865}
+  - {fileID: -5644036239817896681}
+  - {fileID: -189510569479240014}
+  - {fileID: -883988981248664033}
+  - {fileID: -5942439994236224299}
+  - {fileID: -2536170839629730413}
+  - {fileID: -8191251766728242120}
+  - {fileID: -1759400889729495000}
+  - {fileID: -1952637244862575568}
+  - {fileID: 3641966400868133341}
+  - {fileID: 1165196173725653506}
+  - {fileID: -5916840950806025468}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &1165196173725653506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1961
+    y: 264.66678
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Auricen
+    text: Hiddenbrook? No one comes there, my father knows it.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 3641966400868133341}
+  childNode: {fileID: -5916840950806025468}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2593957155891962865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 115
+    y: 109.66663
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Auricen
+    text: Who are they, I think you known what are those.
+    characterSprite: {fileID: 21300000, guid: e1988d198c5bf544bbadd11fda1d0ec1, type: 3}
+  parentNode: {fileID: -2332995692095909268}
+  childNode: {fileID: -5644036239817896681}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3641966400868133341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1746
+    y: 460.66663
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Elderly Lori
+    text: Your father... He went to Hiddenbrook
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1952637244862575568}
+  childNode: {fileID: 1165196173725653506}
+  isExternalFunc: 0
+  externalFunctionName: 
